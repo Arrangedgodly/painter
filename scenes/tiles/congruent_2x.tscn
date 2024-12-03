@@ -1,10 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://b5dx3avisvg18"]
+[gd_scene load_steps=4 format=3 uid="uid://tox5hwgath5l"]
 
-[ext_resource type="Texture2D" uid="uid://c6swb3yo0df12" path="res://assets/CONGRUENT.png" id="1_ma85w"]
+[ext_resource type="Texture2D" uid="uid://bnyysg0wmcrnm" path="res://assets/CONGRUENT-2x.png" id="1_itum3"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_khh7m"]
-texture = ExtResource("1_ma85w")
-texture_region_size = Vector2i(8, 8)
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_astew"]
+texture = ExtResource("1_itum3")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -1427,12 +1426,11 @@ texture_region_size = Vector2i(8, 8)
 6:41/0 = 0
 7:41/0 = 0
 
-[sub_resource type="TileSet" id="TileSet_p4l8t"]
+[sub_resource type="TileSet" id="TileSet_cgyew"]
 tile_shape = 1
 tile_layout = 5
 tile_offset_axis = 1
-tile_size = Vector2i(8, 8)
-sources/1 = SubResource("TileSetAtlasSource_khh7m")
+sources/0 = SubResource("TileSetAtlasSource_astew")
 
-[node name="CongruentTiles" type="TileMapLayer"]
-tile_set = SubResource("TileSet_p4l8t")
+[node name="Congruent2x" type="TileMapLayer"]
+tile_set = SubResource("TileSet_cgyew")
